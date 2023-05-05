@@ -40,7 +40,7 @@ const Dashboard = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
           lacinia odio vitae vestibulum vestibulum.
         </div>
-        <div className="orderNowButton">
+        <div>
           <Button
             text="SEE MENU"
             backgroundColor={"#4A1831"}
@@ -62,7 +62,7 @@ const Dashboard = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum.
           </div>
-          <div className="orderNowButton">
+          <div>
             <Button
               text="TELL ME MORE"
               backgroundColor={"#4A1831"}
@@ -89,7 +89,7 @@ const Dashboard = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum.
           </div>
-          <div className="orderNowButton">
+          <div>
             <Button
               text="SEE OFFERS"
               backgroundColor={"rgba(255, 215, 173, 1)"}

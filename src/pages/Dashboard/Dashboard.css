@@ -1,8 +1,7 @@
 .topContainer {
-  height: 100vh;
   background-image: url(../../images/topContainerImage.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   padding-left: 60px;
 }
 .topContainerLeftSide {
@@ -157,6 +156,7 @@
   color: #ffd7ad;
   font-size: 45px;
   font-weight: 500;
+  text-align: center;
 }
 .getOurLatestOffers {
   padding: 215px 150px 225px 150px;
@@ -170,6 +170,7 @@
   font-size: 75px;
   padding-bottom: 58px;
   font-weight: 900;
+  text-align: center;
 }
 .getOurLatestOffersDescription {
   font-size: 30px;
@@ -182,12 +183,12 @@
   width: 100%;
 }
 .buttonClass {
-  padding: 25px 0px;
+  padding: 25px 44px;
   font-size: 25px;
   width: 325px;
 }
 .buttonClassEnterEmail {
-  padding: 20px 0px;
+  padding: 13px 0px;
   font-size: 25px;
   width: 325px;
 }
@@ -205,4 +206,176 @@
   position: absolute;
   top: 0px;
   right: 0px;
+}
+@media screen and (max-width: 1220px) {
+  .aboutMariachiLeftSide {
+    padding-left: 30px;
+  }
+  .aboutMariachiRightSide {
+    padding: 0px 27px 0px 0px;
+  }
+  .aboutMariachiHeading {
+    font-size: 63px;
+    padding-bottom: 34px;
+
+    line-height: 1;
+  }
+  .seeOurOffers {
+    padding: 127px 33px 127px 41px;
+  }
+  .seeOurOffersHeading {
+    font-size: 63px;
+    padding-bottom: 34px;
+
+    line-height: 1;
+  }
+  .seeOurOffersDescription {
+    font-size: 25px;
+  }
+  .aboutMariachiDescription {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .buttonClass {
+    width: 100%;
+  }
+  .buttonClassEnterEmail {
+    width: 100%;
+    padding: 13px 10px;
+  }
+  .inputEnter {
+    width: 430px;
+  }
+  .twentyFivePercent {
+    font-size: 110px;
+  }
+  .discountSub {
+    font-size: 48px;
+  }
+  .onTacos {
+    font-size: 68px;
+  }
+  .topContainerLeftSide {
+    width: 98%;
+  }
+  .mariachi {
+    font-size: 95px;
+  }
+  .mariachiDescription {
+    font-size: 25px;
+  }
+  .orderNowButton {
+    padding-bottom: 215px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutMariachi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutMariachiLeftSide {
+    width: 60%;
+  }
+  .aboutMariachiRightSide {
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+  }
+  .aboutMariachiHeading {
+    text-align: center;
+  }
+  .aboutMariachiDescription {
+    text-align: center;
+  }
+  .twentyFivePercent {
+    font-size: 58px;
+  }
+  .discountSub {
+    font-size: 30px;
+  }
+  .onTacos {
+    font-size: 40px;
+  }
+  .seeOurOffers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 59px 20px;
+  }
+  .seeOurOffersLeftSide {
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+  }
+  .seeOurOffersRightSide {
+    width: 60%;
+  }
+  .mariachiMoreDetailed {
+    font-size: 25px;
+  }
+  .mariachiMoreDetailedBelow {
+    font-size: 35px;
+  }
+  .getOurLatestOffers {
+    padding: 105px 20px 103px 20px;
+  }
+  .getOurLatestOffersHeading {
+    font-size: 63px;
+    line-height: 1;
+  }
+  .getOurLatestOffersDescription {
+    font-size: 25px;
+  }
+  .inputEnter {
+    width: 100%;
+  }
+  .buttonKey {
+    position: unset;
+    padding-top: 20px;
+  }
+  .dontMissMenuHeading {
+    font-size: 63px;
+    line-height: 1;
+  }
+  .dontMissOurMenu {
+    padding: 102px 20px 86px 20px;
+  }
+  .mariachi {
+    font-size: 57px;
+  }
+  .topContainer {
+    padding-left: 20px;
+  }
+  .newDesigning {
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .twentyFivePercent {
+    font-size: 30px;
+  }
+  .discountSub {
+    font-size: 20px;
+  }
+  .onTacos {
+    font-size: 30px;
+  }
+  .mariachi {
+    font-size: 45px;
+  }
+  .dontMissMenuHeading {
+    font-size: 45px;
+  }
+  .aboutMariachiHeading {
+    font-size: 45px;
+  }
+  .seeOurOffersHeading {
+    font-size: 45px;
+  }
+  .getOurLatestOffersHeading {
+    font-size: 45px;
+  }
 }

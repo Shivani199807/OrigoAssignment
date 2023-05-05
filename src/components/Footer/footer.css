@@ -54,6 +54,11 @@
 .imagePadding {
   padding-right: 28px;
 }
+@media screen and (min-width: 1309px) {
+  .groupCols {
+    display: flex;
+  }
+}
 @media screen and (max-width: 1308px) {
   .mainFooterDiv {
     padding: 247px 0px 247px 68px;
@@ -67,9 +72,11 @@
   }
   .wrapUpColumn {
     flex-basis: 50%;
+    padding-bottom: 60px;
   }
   .newDesigning {
     flex-basis: 50%;
+    padding-bottom: 60px;
     /* padding-right: 80px; */
   }
   .mainFooterDiv {
@@ -101,5 +108,14 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .newDesigning {
+    padding-right: 20px;
+  }
+  .mainFooterDiv {
+    padding: 107px 0px 171px 20px;
   }
 }
