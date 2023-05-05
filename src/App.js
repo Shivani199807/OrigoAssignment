@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard/Dashboard";
 const App = () => {
