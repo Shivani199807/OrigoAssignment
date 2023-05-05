@@ -207,6 +207,9 @@
   top: 0px;
   right: 0px;
 }
+.orderNowButton {
+  padding-bottom: 215px;
+}
 @media screen and (max-width: 1220px) {
   .aboutMariachiLeftSide {
     padding-left: 30px;
@@ -236,6 +239,7 @@
     font-size: 25px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .buttonClass {
     width: 100%;

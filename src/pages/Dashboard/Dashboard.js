@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Dashboard.css";
 import logo from "../../images/logo.png";
 import MidImage from "../../images/midImage.png";
@@ -9,10 +9,31 @@ import Button from "../../components/Button/Button";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/footer";
 const Dashboard = () => {
+  const targetAbout = useRef();
+  const targetMenu = useRef();
+  const targetOffers = useRef();
+  const targetContact = useRef();
+  const navigateAbout = () => {
+    targetAbout.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const navigateMenu = () => {
+    targetMenu.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const navigateOffers = () => {
+    targetOffers.current.scrollIntoView({ behavior: "smooth" });
+  };
+  const navigateContact = () => {
+    targetContact.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div>
       <div>
-        <Navbar />
+        <Navbar
+          navigateAbout={navigateAbout}
+          navigateMenu={navigateMenu}
+          navigateOffers={navigateOffers}
+          navigateContact={navigateContact}
+        />
       </div>
       <div className="topContainer">
         <div className="topContainerLeftSide">
@@ -34,7 +55,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="dontMissOurMenu">
+      <div className="dontMissOurMenu" ref={targetMenu}>
         <div className="dontMissMenuHeading">Don’t Miss our Menu!</div>
         <div className="dontMissMenuDescription">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -52,7 +73,7 @@ const Dashboard = () => {
       <div className="midImage">
         <img src={MidImage}></img>
       </div>
-      <div className="aboutMariachi">
+      <div className="aboutMariachi" ref={targetAbout}>
         <div className="aboutMariachiLeftSide">
           <img src={AboutMariachi}></img>
         </div>
@@ -82,7 +103,7 @@ const Dashboard = () => {
           <div className="onTacos">ON TACOS!</div>
         </div>
       </div>
-      <div className="seeOurOffers">
+      <div className="seeOurOffers" ref={targetOffers}>
         <div className="seeOurOffersLeftSide">
           <div className="seeOurOffersHeading">See our Offers</div>
           <div className="seeOurOffersDescription">
@@ -112,7 +133,7 @@ const Dashboard = () => {
         </div>
         <div className="mariachiMoreDetailedBelow">Pedro Rodriguez</div>
       </div>
-      <div className="getOurLatestOffers">
+      <div className="getOurLatestOffers" ref={targetContact}>
         <div className="getOurLatestOffersHeading">Get our Latest Offers!</div>
         <div className="getOurLatestOffersDescription">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus

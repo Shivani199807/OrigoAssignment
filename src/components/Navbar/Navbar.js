@@ -1,8 +1,13 @@
-import React, { useState } from "react";
-
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = ({
+  navigateAbout,
+  navigateMenu,
+  navigateOffers,
+  navigateContact,
+}) => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light  navbarNewItem">
       <button
@@ -25,34 +30,34 @@ function Navbar() {
       >
         <ul class="navbar-nav flex align-items-center justify-content-center ">
           <li class="nav-item active">
-            <a class="nav-link linkDesign" href="#">
+            <Link class="nav-link linkDesign" to={"/"}>
               HOME <span class="sr-only">(current)</span>
-            </a>
+            </Link>
           </li>
-          <li class="nav-item linkDesign">
-            <a class="nav-link" href="#">
+          <li class="nav-item linkDesign" onClick={navigateAbout}>
+            <Link class="nav-link" to={"/"}>
               ABOUT
-            </a>
+            </Link>
           </li>
-          <li class="nav-item linkDesign">
-            <a class="nav-link" href="#">
+          <li class="nav-item linkDesign" onClick={navigateMenu}>
+            <Link class="nav-link" to={"/"}>
               MENU
-            </a>
+            </Link>
           </li>
-          <li class="nav-item linkDesign">
-            <a class="nav-link" href="#">
+          <li class="nav-item linkDesign" onClick={navigateOffers}>
+            <Link class="nav-link" to={"/"}>
               OFFERS
-            </a>
+            </Link>
           </li>
-          <li class="nav-item linkDesign">
-            <a class="nav-link" href="#">
+          <li class="nav-item linkDesign" onClick={navigateContact}>
+            <Link class="nav-link" to={"/"}>
               CONTACT
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
