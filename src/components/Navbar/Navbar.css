@@ -1,0 +1,8 @@
+.navbarNewItem {
+  background-color: rgba(74, 24, 49, 1);
+  color: #ffd7ad;
+}
+.nav-link {
+  color: #ffd7ad !important;
+  padding: 25px 40px 25px 40px !important;
+}

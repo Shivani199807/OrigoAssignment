@@ -1,0 +1,208 @@
+.topContainer {
+  height: 100vh;
+  background-image: url(../../images/topContainerImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 60px;
+}
+.topContainerLeftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.logoTopContainerDesign {
+  padding-top: 46px;
+  padding-bottom: 31px;
+}
+.mariachi {
+  font-size: 125px;
+  color: #ffd7ad;
+  font-weight: bold;
+}
+.mariachiDescription {
+  padding: 80px 0px 51px 0px;
+  font-size: 30px;
+  color: #ffd7ad;
+}
+
+.dontMissOurMenu {
+  background-color: #ffd7ad;
+  padding: 102px 58px 86px 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dontMissMenuHeading {
+  color: #4a1831;
+  font-size: 64px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.dontMissMenuDescription {
+  font-size: 25px;
+  padding-bottom: 66px;
+  text-align: center;
+}
+.aboutMariachi {
+  background-color: #ffd7ad;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 0px 59px 0px;
+}
+.aboutMariachiLeftSide {
+  width: 45%;
+  padding-left: 90px;
+}
+.aboutMariachiLeftSide img {
+  width: 100%;
+}
+.aboutMariachiRightSide {
+  width: 45%;
+  padding: 0px 136px 0px 49px;
+}
+.aboutMariachiHeading {
+  color: #4a1831;
+  font-size: 75px;
+  padding-bottom: 58px;
+  font-weight: bold;
+}
+.aboutMariachiDescription {
+  color: #4a1831;
+  font-size: 30px;
+  padding-bottom: 38px;
+}
+.discount {
+  background-color: #ffd7ad;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.discountImage {
+  display: flex;
+  align-items: flex-end;
+}
+.discountImage img {
+  width: 100%;
+}
+.discountOnTacos {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+.twentyFivePercent {
+  font-size: 167px;
+  color: #e63956;
+  font-weight: 900;
+}
+.discountSub {
+  font-size: 64px;
+  color: #55112e;
+  font-weight: 900;
+}
+.onTacos {
+  font-size: 104px;
+  color: #6cc5ac;
+  font-weight: 900;
+}
+.seeOurOffers {
+  background-color: rgba(74, 24, 49, 1);
+  padding: 127px 33px 127px 133px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seeOurOffersLeftSide {
+  width: 50%;
+}
+.seeOurOffersRightSide {
+  width: 45%;
+}
+.seeOurOffersRightSide img {
+  width: 100%;
+}
+.seeOurOffersHeading {
+  font-size: 75px;
+  color: #ffd7ad;
+  font-weight: bold;
+  padding: 123px 0px 58px 0px;
+}
+.seeOurOffersDescription {
+  color: #ffd7ad;
+  font-size: 30px;
+  padding-bottom: 72px;
+}
+.mariachiMore {
+  background-image: url(../../images/moreMariache.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(103, 141, 124, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 107px 0px 103px 0px;
+  background-blend-mode: multiply;
+}
+.mariachiMoreDetailed {
+  padding: 62px 50px 42px 50px;
+  font-size: 42px;
+  color: #ffd7ad;
+  text-align: center;
+}
+.mariachiMoreDetailedBelow {
+  color: #ffd7ad;
+  font-size: 45px;
+  font-weight: 500;
+}
+.getOurLatestOffers {
+  padding: 215px 150px 225px 150px;
+  background-color: #ffd7ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.getOurLatestOffersHeading {
+  color: #4a1831;
+  font-size: 75px;
+  padding-bottom: 58px;
+  font-weight: 900;
+}
+.getOurLatestOffersDescription {
+  font-size: 30px;
+  color: #4a1831;
+  padding-bottom: 114px;
+  text-align: center;
+}
+
+.midImage img {
+  width: 100%;
+}
+.buttonClass {
+  padding: 25px 0px;
+  font-size: 25px;
+  width: 325px;
+}
+.buttonClassEnterEmail {
+  padding: 20px 0px;
+  font-size: 25px;
+  width: 325px;
+}
+.enterEmail {
+  position: relative;
+}
+.inputEnter {
+  width: 600px;
+  height: 66px;
+  border-radius: 50px;
+  padding: 0px 39px 0px 39px;
+  font-size: 20px;
+}
+.buttonKey {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
